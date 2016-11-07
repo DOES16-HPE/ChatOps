@@ -1,0 +1,28 @@
+{
+  "name": "hubot",
+  "version": "1.0.0",
+  "private": true,
+  "author": "daniel.perez3@hpe.com,lucas.gravley@hpe.com,da-sheng.jian@hpe.com",
+  "description": "Dockerized hubot",
+  "dependencies": {
+    "hubot": "^2.15.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-flowdock": "^0.7.6",
+    "hubot-help": "^0.1.1",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.16.2",
+    "hubot-auth": "~1.2.0",
+    "request": ">= 2.55.0",
+    "async": "^1.4.2",
+    "redis": "~0.12.1",
+    "hubot-github-webhook-listener": ">= 0.0.0",
+    "debug": "2.2.0",
+    "underscore": "*",
+    "phantomjs": "^1.9.18",
+    "phantom": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
